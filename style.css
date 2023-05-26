@@ -44,8 +44,11 @@ body .buttons button {
   font-weight: bold;
   transition: 0.3s;
 }
-body .buttons button:hover {
-  scale: 1.1;
+body .buttons button:enabled {
+  cursor: pointer;
+}
+body .buttons button:enabled:hover {
+  transform: scale(1.1);
 }
 body table {
   border-collapse: collapse;
